@@ -1,9 +1,11 @@
+
 const {
   gsap: { registerPlugin, set, to, timeline },
   MorphSVGPlugin,
   Draggable,
 } = window
 registerPlugin(MorphSVGPlugin)
+
 
 // Used to calculate distance of "tug"
 let startX
@@ -12,6 +14,7 @@ let startY
 const AUDIO = {
   CLICK: new Audio('https://assets.codepen.io/605876/click.mp3'),
 }
+
 const STATE = {
   ON: false,
 }
