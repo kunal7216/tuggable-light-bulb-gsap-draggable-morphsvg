@@ -1,6 +1,8 @@
+
 * {
   box-sizing: border-box;
 }
+
 :root {
   --on: 0;
   --bg: hsl(calc(200 - (var(--on) * 160)), calc((20 + (var(--on) * 50)) * 1%), calc((20 + (var(--on) * 60)) * 1%));
