@@ -1,9 +1,11 @@
+
 const {
   gsap: { registerPlugin, set, to, timeline },
   MorphSVGPlugin,
   Draggable } =
 window;
 registerPlugin(MorphSVGPlugin);
+
 
 // Used to calculate distance of "tug"
 let startX;
